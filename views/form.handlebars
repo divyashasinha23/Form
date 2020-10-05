@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<link rel="stylesheet" href="public/css/styles.css">
+</head>
+<body>
+<div class="container">
+	<div class="header">
+		<h2>Tell us about You</h2>
+	</div>
+	<form id="form_main" class="form_main" method= "POST" action = "send">
+		<div class="form-control">
+			<label for="name">Full Name</label>
+			<input name="Name" type="text" placeholder="Div" id="username" />
+			<small>Error message</small>
+		</div>
+		<div class="form-control">
+			<label for="username">Email</label>
+			<input name="Email" type="email" placeholder="div@everywhere.yes" id="email" />
+			<small>Error message</small>
+		</div>
+		<div class="form-control">
+			<label for="username">Phone</label>
+			<input name="Phone" type="text" placeholder="+91 9999ccbbbb" id="phone"/>
+			<small>Error message</small>
+		</div>
+		<button type = "submit">Submit</button>
+	</form>
+</div>
+</body>
+</html>
